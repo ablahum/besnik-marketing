@@ -9,7 +9,7 @@ const Clients = () => (
   <div className='container mx-auto py-20 grid grid-cols-1 grid-rows-[auto_auto] text-center gap-4'>
     <p className='uppercase text-muted font-bold'>some of our trusted clients</p>
 
-    <div className='grid md:grid-cols-[auto_auto_auto_auto_auto_auto] md:grid-rows-1 grid-cols-1 grid-rows-5 items-center md:gap-8 gap-4 justify-between justify-items-stretch mx-52 md:mx-0'>
+    <div className='grid sm:grid-cols-[auto_auto_auto_auto_auto_auto] sm:grid-rows-1 grid-cols-1 grid-rows-5 items-center sm:gap-8 gap-4 justify-between justify-items-stretch mx-auto sm:mx-0'>
       <img
         src={chase}
         alt='chase'

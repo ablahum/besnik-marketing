@@ -15,7 +15,7 @@ const Feature = () => (
       </p>
     </div>
 
-    <div className='grid grid-cols-1 grid-rows-3 xl:px-72 gap-8'>
+    <div className='grid grid-cols-1 grid-rows-3 xl:px-72 gap-4'>
       <div className='mx-12 sm:mx-0 grid sm:grid-cols-5 sm:grid-rows-[auto_auto_auto] grid-cols-1 grid-rows-[auto_auto] gap-4'>
         <div className='sm:sm:row-start-2 sm:col-span-3 sm:order-0 order-1 grid grid-cols-1 grid-rows-[auto_auto_auto_auto] justify-items-start gap-4'>
           <p className='uppercase text-[#B33CDB] font-semibold text-sm'>influencer</p>
