@@ -3,7 +3,7 @@ import instagram from '../assets/instagram.png'
 import youtube from '../assets/youtube.png'
 
 const Footer = () => (
-  <div className='container mx-auto py-8 grid grid-cols-[auto_auto_auto] grid-rows-1 justify-between'>
+  <div className='container mx-auto py-4 grid grid-cols-[auto_auto_auto] grid-rows-1 justify-between'>
     <h1 className='capitalize font-bold font-lekton text-3xl'>besnik.</h1>
 
     <ul className='capitalize grid grid-cols-[auto_auto_auto_auto] grid-rows-1 items-center'>

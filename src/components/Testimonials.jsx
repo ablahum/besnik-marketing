@@ -2,19 +2,19 @@ import profile from '../assets/profile.png'
 import person from '../assets/person.png'
 
 const Testimonials = () => (
-  <div className='container mx-auto py-24 grid grid-cols-1 grid-rows-[auto_auto] gap-8'>
-    <div className='grid grid-cols-1 grid-rows-2 items-center justify-items-center gap-3'>
+  <div className='container mx-auto py-20 grid grid-cols-1 grid-rows-[auto_auto] gap-8'>
+    <div className='grid grid-cols-1 grid-rows-2 items-center justify-items-center text-center gap-4'>
       <h3 className='text-poppins font-semibold text-4xl capitalize'>happy clients</h3>
 
-      <p className='text-center text-paragraph'>
+      <p className='text-paragraph'>
         <span className='capitalize'>the marketing accountability standards boards </span>
-        <span className='uppercase'>(masb) </span>endorses the <br />
+        <span className='uppercase'>(masb) </span>endorses the <br className='md:inline hidden' />
         definitions, purposes, and constructs of classes
       </p>
     </div>
 
-    <div className='grid grid-cols-5 grid-rows-[auto_auto_auto] gap-8'>
-      <div className='row-start-2 col-span-3 grid grid-cols-1 grid-rows-[auto_auto_auto] gap-4'>
+    <div className='grid md:grid-cols-5 md:grid-rows-[auto_auto_auto] gap-8 md:mx-0 mx-12'>
+      <div className='row-start-2 md:col-span-3 grid grid-cols-1 grid-rows-[auto_auto_auto] gap-4'>
         <img
           src={profile}
           alt='profile'
@@ -63,10 +63,11 @@ const Testimonials = () => (
         </div>
       </div>
 
-      <div className='col-span-2 row-span-3'>
+      <div className='md:col-span-2 md:row-span-3'>
         <img
           src={person}
           alt='person'
+          className='w-full'
         />
       </div>
     </div>

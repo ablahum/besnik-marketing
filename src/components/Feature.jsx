@@ -3,24 +3,24 @@ import community from '../assets/community.png'
 import cardServices from '../assets/card-services.png'
 
 const Feature = () => (
-  <div className='container mx-auto py-24 grid grid-cols-1 grid-rows-[auto_auto] gap-8'>
-    <div className='grid grid-cols-1 grid-rows-2 items-center justify-items-center gap-3'>
+  <div className='container mx-auto py-20 grid grid-cols-1 grid-rows-[auto_auto] gap-8'>
+    <div className='grid grid-cols-1 grid-rows-2 items-center justify-items-center text-center gap-4'>
       <h3 className='text-poppins font-semibold text-4xl'>
         <span className='capitalize'>solutions </span>for every need
       </h3>
 
-      <p className='text-center text-paragraph'>
-        <span className='capitalize'>join </span>thousands of marketers and entrepreneurs for a 2-day event at <br />
+      <p className='text-paragraph'>
+        <span className='capitalize'>join </span>thousands of marketers and entrepreneurs for a 2-day event at <br className='md:inline hidden' />
         the forefront of social commerce.
       </p>
     </div>
 
-    <div className='grid grid-cols-1 grid-rows-3 px-72 gap-4'>
-      <div className='grid grid-cols-5 grid-rows-[auto_auto_auto] gap-4'>
-        <div className='row-start-2 col-span-3 grid grid-cols-1 grid-rows-[auto_auto_auto_auto] justify-items-start'>
-          <p className='uppercase text-[#B33CDB] font-semibold text-sm mb-2'>influencer</p>
+    <div className='grid grid-cols-1 grid-rows-3 xl:px-72 gap-8'>
+      <div className='mx-12 sm:mx-0 grid sm:grid-cols-5 sm:grid-rows-[auto_auto_auto] grid-cols-1 grid-rows-[auto_auto] gap-4'>
+        <div className='sm:sm:row-start-2 sm:col-span-3 sm:order-0 order-1 grid grid-cols-1 grid-rows-[auto_auto_auto_auto] justify-items-start gap-4'>
+          <p className='uppercase text-[#B33CDB] font-semibold text-sm'>influencer</p>
 
-          <h3 className='text-poppins font-semibold text-3xl mb-4'>
+          <h3 className='text-poppins font-semibold text-3xl'>
             <span className='capitalize'>influencer </span>marketing
           </h3>
 
@@ -28,7 +28,7 @@ const Feature = () => (
             <span className='capitalize'>create </span>infinite pieces of content with our influencer product. Build,streamline,manage large-scale influencer programs
           </p>
 
-          <button className='mt-6 font-medium text-[#42424A] grid grid-cols-[auto_auto] grid-rows-1 items-center gap-2'>
+          <button className='font-medium text-[#42424A] grid grid-cols-[auto_auto] grid-rows-1 items-center gap-2'>
             <span className='capitalize'>learn more</span>
 
             <svg
@@ -48,7 +48,7 @@ const Feature = () => (
           </button>
         </div>
 
-        <div className='row-span-3 col-span-2'>
+        <div className='sm:row-span-3 sm:col-span-2'>
           <img
             src={cardMarketing}
             alt='marketing'
@@ -56,19 +56,12 @@ const Feature = () => (
           />
         </div>
       </div>
-      <div className='grid grid-cols-5 grid-rows-[auto_auto_auto] gap-4'>
-        <div className='row-span-3 col-span-2 self-center'>
-          <img
-            src={community}
-            alt='community'
-            className='w-full'
-          />
-        </div>
 
-        <div className='row-start-2 col-span-3 col-start-3 grid grid-cols-1 grid-rows-[auto_auto_auto_auto] justify-items-start'>
-          <p className='uppercase text-[#FBBA33] font-semibold text-sm mb-2'>community</p>
+      <div className='mx-12 sm:mx-0 grid sm:grid-cols-5 sm:grid-rows-[auto_auto_auto] grid-cols-1 grid-rows-[auto_auto] gap-4'>
+        <div className='sm:row-start-2 sm:col-span-3 sm:col-start-3 sm:order-0 order-1 grid grid-cols-1 grid-rows-[auto_auto_auto_auto] justify-items-start gap-4'>
+          <p className='uppercase text-[#FBBA33] font-semibold text-sm'>community</p>
 
-          <h3 className='text-poppins font-semibold text-3xl mb-4'>
+          <h3 className='text-poppins font-semibold text-3xl'>
             <span className='capitalize'>community </span>marketing
           </h3>
 
@@ -76,7 +69,7 @@ const Feature = () => (
             <span className='capitalize'>bring </span>your relationships to new heights with our community product. Discover your biggest enthusiasts{' '}
           </p>
 
-          <button className='mt-6 font-medium text-[#42424A] grid grid-cols-[auto_auto] grid-rows-1 items-center gap-2'>
+          <button className='font-medium text-[#42424A] grid grid-cols-[auto_auto] grid-rows-1 items-center gap-2'>
             <span className='capitalize'>learn more</span>
 
             <svg
@@ -95,12 +88,21 @@ const Feature = () => (
             </svg>
           </button>
         </div>
-      </div>
-      <div className='grid grid-cols-5 grid-rows-[auto_auto_auto] gap-4'>
-        <div className='row-start-2 col-span-3 grid grid-cols-1 grid-rows-[auto_auto_auto_auto] justify-items-start'>
-          <p className='uppercase text-[#DE2879] font-semibold text-sm mb-2'>services</p>
 
-          <h3 className='text-poppins font-semibold text-3xl mb-4'>
+        <div className='sm:row-span-3 sm:col-span-2 self-center'>
+          <img
+            src={community}
+            alt='community'
+            className='w-full'
+          />
+        </div>
+      </div>
+
+      <div className='mx-12 sm:mx-0 grid sm:grid-cols-5 sm:grid-rows-[auto_auto_auto] grid-cols-1 grid-rows-[auto_auto] gap-4'>
+        <div className='sm:row-start-2 sm:col-span-3 sm:order-0 order-1 grid grid-cols-1 grid-rows-[auto_auto_auto_auto] justify-items-start gap-4'>
+          <p className='uppercase text-[#DE2879] font-semibold text-sm'>services</p>
+
+          <h3 className='text-poppins font-semibold text-3xl'>
             <span className='capitalize'>managed </span>services
           </h3>
 
@@ -108,7 +110,7 @@ const Feature = () => (
             <span className='capitalize'>our </span>full-service solution lets our experts do the heavy lifting to optimize your community for brand building and storytelling
           </p>
 
-          <button className='mt-6 font-medium text-[#42424A] grid grid-cols-[auto_auto] grid-rows-1 items-center gap-2'>
+          <button className='font-medium text-[#42424A] grid grid-cols-[auto_auto] grid-rows-1 items-center gap-2'>
             <span className='capitalize'>learn more</span>
 
             <svg
@@ -128,14 +130,14 @@ const Feature = () => (
           </button>
         </div>
 
-        <div className='row-span-3 col-span-2 self-center'>
+        <div className='sm:row-span-3 sm:col-span-2 self-center'>
           <img
             src={cardServices}
             alt='service'
             className='w-full shadow-lg rounded-lg'
           />
         </div>
-      </div>{' '}
+      </div>
     </div>
   </div>
 )

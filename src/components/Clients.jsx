@@ -6,10 +6,10 @@ import toggl from '../assets/toggl.png'
 import walmart from '../assets/walmart.png'
 
 const Clients = () => (
-  <div className='container mx-auto py-24 grid grid-cols-1 grid-rows-[auto_auto] text-center gap-4'>
+  <div className='container mx-auto py-20 grid grid-cols-1 grid-rows-[auto_auto] text-center gap-4'>
     <p className='uppercase text-muted font-bold'>some of our trusted clients</p>
 
-    <div className='grid grid-cols-[auto_auto_auto_auto_auto_auto] grid-rows-1 items-center gap-8 justify-between'>
+    <div className='grid md:grid-cols-[auto_auto_auto_auto_auto_auto] md:grid-rows-1 grid-cols-1 grid-rows-5 items-center md:gap-8 gap-4 justify-between justify-items-stretch mx-52 md:mx-0'>
       <img
         src={chase}
         alt='chase'

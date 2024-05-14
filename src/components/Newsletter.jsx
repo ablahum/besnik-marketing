@@ -1,13 +1,13 @@
 const Newsletter = () => (
-  <div className='container mx-auto py-24 grid grid-cols-1 grid-rows-1 gap-8'>
-    <div className='grid grid-cols-1 grid-rows-3 items-center justify-items-center gap-3 p-8 bg-gradient-to-r from-[#e73635] to-[#6ad5ff] rounded-lg'>
+  <div className='container mx-auto py-20 grid grid-cols-1 grid-rows-1 gap-8'>
+    <div className='grid grid-cols-1 grid-rows-3 items-center justify-items-center text-center gap-4 p-8 bg-gradient-to-r from-[#e73635] to-[#6ad5ff] rounded-lg'>
       <h3 className='text-poppins font-semibold text-4xl text-white'>
         <span className='capitalize'>subscribe </span>our newsletter
       </h3>
 
       <p className='text-center text-white'>
         <span className='capitalize'>join </span>thousands of marketers and entrepreneurs for a 2-day event at
-        <br />
+        <br className='md:inline hidden' />
         the forefront of social commerce.
       </p>
 

@@ -1,7 +1,7 @@
 import hero from '../assets/hero.png'
 
 const Hero = () => (
-  <div className='h-[60vh]'>
+  <div className='h-[50vh] relative'>
     <div className='bg-gradient-to-r from-[#e73635] to-[#6ad5ff] h-[40vh]'></div>
 
     <div className='relative container mx-auto'>
